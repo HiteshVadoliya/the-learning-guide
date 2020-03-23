@@ -1,0 +1,12 @@
+id,School Number,School Name,motto,Type,Sub Type,sector,Campus locations,Telephone Title,Telephone,Website,Email,Chancellor,Vice Chancellor,Student Support Officer,Student Support Email,No of Student,No of Teacher,gender,Religion,Student Association,Student Association Contact,Annual Fees Average,Student Boarding / Housing,Private School/Shuttle Bus,Onsite Parking,Scholarship Offers,Bus Stop on Campus,Special Needs Infrastructure,Special needs categories,Train station close to Campus,Careers Adviser,Student Support / Counselling,Student Counsellor or Support Contact,International Students Accepted,CRICOS Number,Suburb,State,Address,PO Box,primary campus title,primary campus suburb,primary campus state,primary campus address,primary campus po box,Show Primary Campus On Map,About School,Facilities,Use of Facilities Contact,Instagram,Facebook
+0 - if not exist,0,,,tertiary,"tafe,college,university","public,private,independent,government",,Campus Title,9955662,,,,,,,,,,,,,,boarding,private_school_bus,,scholarship_offer,busstop_campus,,,,,,,,,,,,,,,,,,,my school about,facilities[],facilities_contact,instagram,facebook
+,,,,,,,,,,,,,,,,100 = 0-200,10 = 0-20,male,,,,,0-1,0-1,0-1,0-1,0-1,0-1,1=Intellectual,0-1,0-1,0-1,,0-1,,,1 = Australian Capital Territory,,,,,,,,0-1,,,,,
+,,,,,,,,,,,,,,,,350 = 201-500,35 = 21-50,female,,,,,0-No,0-No,0-No,0-No,0-No,0-No,2=Physical,0-No,0-No,0-No,,0-No,,,2 = New South Wales,,,,,,,,0-No,,"Pool,Tennis Court,Basketball Court,Library,School Canteen,Lockers,Student Lounge,Elevator/s,Sick Bay,Gymnasium,Bike racks,Uniform Shop,All Gender Bathroom,Shuttle Bus,Bus stop,Preschool,Science Labs,Student Kitchen,3D Printer, Volleyball Court",,,
+,,,,,,,,,,,,,,,,750 = 501-1000,75 = 51-100,coeducation,,,,,1-Yes,1-Yes,1-Yes,1-Yes,1-Yes,1-Yes,3=Acquired brain injury,1-Yes,1-Yes,1-Yes,,1-Yes,,,3 = Northern Territory,,,,,,,,1-Yes,,",Netball Court,Lecture Theatre,Music Room,School Nurse,Onsite Visitor Parking,Football Field,Rowing Shed",,,
+,,,,,,,,,,,,,,,,1001 = 1000+,150 = 101-200,,,,,,,,,,,,4=Neurological,,,,,,,,4 = Queensland,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,201 = 200+,,,,,,,,,,,,5=Dual Sensory,,,,,,,,5 = South Australia,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6=Vision,,,,,,,,6 = Tasmania,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7=Hearing,,,,,,,,7 = Victoria,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8=Speech,,,,,,,,8 = Western Australia,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9=Psychiatric,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10=Developmental delay,,,,,,,,,,,,,,,,,,,,,

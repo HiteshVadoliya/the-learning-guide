@@ -1,0 +1,222 @@
+.newfont a { color: black !important; }
+.newfont a:hover {
+    color: #faaf4c !important;
+}
+.padd_lft_0 {
+    padding-left: 0;
+}
+.padd_lft_20 {
+    padding-left: 20px !important;
+}
+.bg_wht_pnl{background:white;padding:30px;}
+/* Single Tour Page CSS */
+    .btn_full_outline {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #85c99d;
+    background: none;
+    border: 2px solid #85c99d;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.newmap {
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+/* Paypal Loader */
+#preloader h1 {
+    margin: -15px 0 0 -25px;
+    position: absolute;
+    left: 4%;
+    top: 58%;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #f5af09;
+    font-size: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+/* View Bottom Arrow Css Tour Listing */
+.tooltip-content-flip .tooltip-back::after {
+    left: 45%;
+    border-top: 10px solid #faaf4c;
+    border-right: 10px solid transparent;
+}
+/* New CSS */
+/*-------------------------------Front Footer & Other Changes------------------------------*/
+
+a#phone, a#email_footer {
+    display: table;
+    position: relative;
+    color: #FAAF4C;
+    font-size: 16px;
+    padding-left: 40px;
+    margin: 20px 0;
+}
+
+footer a:hover ,footer a:focus {
+    color: #FAAF4C;
+}
+
+.styled-select select {
+    background: transparent;
+    width: 100%;
+    padding: 7px 5px 5px 15px;
+    border: 0;
+    border-radius: 0;
+    height: 37px;
+    margin: 0;
+    font-weight: 400;
+    -moz-appearance: window;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #999;
+}
+.item_cart {
+    display: inline-block;
+    margin-top: 0px;
+}
+/* shop.css */
+.btn_cart_outine:hover {
+    color: #fff;
+    background: #333;
+    border: 2px solid #333;
+}
+a.btn_full, .btn_full {
+    background: #FAAF4C;
+}
+/* Dingle Tour Description */
+.review_strip_single h4 {
+    margin: -12px 0 35px 0px;
+}
+.review_strip_single p {
+    word-wrap: break-word;
+}
+/* AED 500 in single line single tour */
+#price_single_main span {
+    font-size: 50px;
+}
+
+/* 18/07/2017 */
+.styled-select-filters select{
+    width: 100%;
+}
+
+p.bottom0 {
+    margin-bottom: 0px;
+}
+
+.btn_full_outline{
+    color: #faaf4c;
+    border: 2px solid #faaf4c;
+}
+
+.btn_full_outline:hover {
+    color: #fff;
+    background: #333;
+    border-color: #333;
+}
+
+/* a {
+    color: #faaf4c;
+} */
+
+::selection {
+    background: #faaf4c;
+    color: white;
+}
+
+#price_single_main span {
+    color: #faaf4c;
+}
+
+.header-video {
+    background: none;
+}
+
+.dropdown-menu .row .col-md-12 strong {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newfont {
+    width: 150px !important;
+}
+
+.btn_cart_outine {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.btn_cart_outine:hover {
+    color: #fff;
+    background: #333;
+    border: 2px solid #333;
+}
+
+.strip_booking .date .month {
+    background-color: #FAAF4C;
+}
+
+.strip_booking .date .day strong {
+    color: #faaf4c;
+}
+
+.strip_booking h3.hotel_booking:before, .strip_booking h3.tours_booking:before, .strip_booking h3.transfers_booking:before {
+    font-size: 30px;
+    color: #888;
+    border: 1px solid #888;
+    line-height: 47px;
+}
+
+a.btn_2, .btn_2, a.btn_3, .btn_3 {
+    background: #faaf4c;
+}
+/* tour page */
+.tour_container .tour_title h3 {
+    font-size: 17px;
+}
+.tour_container .tour_title .ninety{
+    width: 92%;
+}
+/* pagination*/
+.pagination > .active > a:hover,
+.pagination > .active > a:focus{
+    color: #fff !important;
+    background-color: #333;
+}
+/* 24/07/2017 */
+/* Active Class Footer */
+footer ul li a.active {
+    color: #FAAF4C;
+}
+.clear {
+    clear: both;
+}
+
+/* 02-10-2017 */
+.img-loader{
+    height: 105px;
+    left:50%;
+    top:50%;
+    width:105px !important;
+}

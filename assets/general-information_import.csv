@@ -1,0 +1,12 @@
+id,School Number,School Name,Type,Sub Type,sector,Email,Telephone,Corporate,Business,website,principal,No of Student,No of Teacher,gender,Suburb,State,Address,Reception Address,Primary Campus Address,Show Primary Campus On Map,Secondary Campus Address,Show Secondary Campus On Map,PO Box,Religion,International Students Accepted,CRICOS Number,Enrolment Officer,Enrolment Officer Email,Special Needs Support,Special needs categories,selective,Commonwealth Funding Year,Commonwealth Funding Amoun,Boarding / Housing,Student Support,School Motto,Scholarship Offers,International Baccalaureate School,About School
+0 - if not exist,0,,"primary,secondary,tertiary,special needs","tafe,college,university","public,private,independent,government",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,my school about
+,,,,,,,,,,,,100 = 0-200,10 = 0-20,male,,1 = Australian Capital Territory,,,,0-1,,0-1,,,0-1,,,,0-1,1=Intellectual,0-1,,,,0-1,,,0-1,
+,,,,,,,,,,,,350 = 201-500,35 = 21-50,female,,2 = New South Wales,,,,0-No,,0-No,,,0-No,,,,0-No,2=Physical,0-No,,,,0-No,,,0-No,
+,,,,,,,,,,,,750 = 501-1000,75 = 51-100,coeducation,,3 = Northern Territory,,,,1-Yes,,1-Yes,,,1-Yes,,,,1-Yes,3=Acquired brain injury,1-Yes,,,,1-Yes,,,1-Yes,
+,,,,,,,,,,,,1001 = 1000+,150 = 101-200,,,4 = Queensland,,,,,,,,,,,,,,4=Neurological,,,,,,,,,
+,,,,,,,,,,,,,201 = 200+,,,5 = South Australia,,,,,,,,,,,,,,5=Dual Sensory,,,,,,,,,
+,,,,,,,,,,,,,,,,6 = Tasmania,,,,,,,,,,,,,,6=Vision,,,,,,,,,
+,,,,,,,,,,,,,,,,7 = Victoria,,,,,,,,,,,,,,7=Hearing,,,,,,,,,
+,,,,,,,,,,,,,,,,8 = Western Australia,,,,,,,,,,,,,,8=Speech,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9=Psychiatric,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10=Developmental delay,,,,,,,,,

@@ -1,0 +1,218 @@
+#Table>tbody>tr>td a ,#Table>tbody>tr>td a {
+    /* border-radius: 50%; */
+  } 
+  #Table>tbody>tr>td a span , .Table>tbody>tr>td a span{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .fa-cdanger{
+    color: red;
+  }
+  .fa-cwarning{
+    color: #222D32;/*#eb9316; */
+  }
+  .fa-aqua{
+    color: #00c0ef;
+  }
+  /* Validation Error */
+  .text-error{
+    /* border-color: red; */
+     border:1px solid red;
+  }
+  .box .box-header .box-title .btn-back,.box .box-header .box-title .btn {
+    background-color: #385f72;
+    border-color: #385f80;
+    color: white;
+  }
+  .box .box-header .box-title .btn-back:hover,.box .box-header .box-title .btn:hover {
+    background-color: #385f72;
+    color: white;
+  }
+  .top-margin{
+    margin-top: 20px;
+  }
+  .text-justify{ text-align: justify; }
+  /* To Remove A Scroll From Right Side*/
+  .wrapper {
+    position: unset !important;
+  }
+  #DDescription { text-align: justify; }
+  .box-body .mb {
+    margin-bottom: 2%;}
+  #Table1>tbody>tr>td a , #Table2>tbody>tr>td a {
+    font-size: 15px;
+  }
+  .mr-top { margin-top: 2%; }
+  /*------------------------------------------Backend CSS Changes----------------------------*/
+
+.sidebar {
+    padding-bottom: 0px;
+}
+
+.sidebar-menu>li>a {
+    padding: 10px 5px 10px 15px;
+    display: block;
+}
+
+.star-mend {
+   color: #f76461;
+}
+/* on off switch */
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/* on off switch */
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+.checkbox-inline, .radio-inline {
+  padding-left: 0;
+}
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+    margin-top: 7px;
+}
+span.multiselect-native-select select {
+  border: 0!important;
+  clip: rect(0 0 0 0)!important;
+  height: 1px!important;
+  margin: -1px -1px -1px -3px!important;
+  overflow: hidden!important;
+  padding: 0!important;
+  position: absolute!important;
+  width: 1px!important;
+  left: 50%;
+  top: 30px;
+}
+.multiselect-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: auto;
+  left: auto;
+}
+.multiselect-container>li {
+  padding: 0;
+}
+.multiselect-container>li>a {
+  padding: 0;
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+  margin: 0;
+}
+.multiselect-container>li>a.multiselect-all label {
+  font-weight: 700;
+}
+.multiselect-container>li>a>label {
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 3px 0 3px 30px;
+}
+.mycheckbox label { padding-left: 0; }
+.multiselect-item.multiselect-group {
+  display: none;
+}
+.multiselect-container li.inner-select-optgroup {
+  padding-left: 15px;
+}
+.multiselect-container {
+  padding-right: 10px;
+}
